@@ -1,0 +1,87 @@
+body {
+	font-size: 20px;
+	font-family: 'Boogaloo', cursive;
+	color: black;
+}
+#header-nav {
+	background-color: #11152F;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.navbar-brand h1 {
+	color: #fff;
+	font-size: 2.2em;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .55;
+}
+
+/* xs Button */
+
+
+.navbar-header button.navbar-toggle {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 0;
+	padding-bottom: 10px;
+	border-color: #fff;
+}
+.navbar-header button.navbar-toggle span.icon-bar {
+	height: 4px;
+	width: 30px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+#nav-list li {
+	text-align: center;
+	color: #fff;
+	font-size: 1.4em;
+}
+
+/* end of xs Button */
+
+
+@media (min-width: 768px) {
+	.container {
+		width: 97%
+	}
+}
+@media (max-width: 767px) {
+	.container>.navbar-header {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	#main-page {
+	width: 75%;
+    }
+    #collapsable-nav {
+	border: 2px solid #fff;
+    }
+}
+
+/* Page Content */
+.page-title {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+.tile {
+	background-color: #11152F;
+	text-align: center;
+	color: #fff;
+	padding: 5px 20px 5px 20px;
+}
+.item-title {
+	font-size: 1.4em;
+	margin-top: 10px;
+	margin-bottom:20px;
+}
+.item-description{
+	font-size: 1em;
+}
